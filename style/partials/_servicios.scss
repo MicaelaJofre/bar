@@ -1,0 +1,95 @@
+.servicios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 1fr;
+    gap: 2em;
+    background-color: $negro;
+    padding: 2em;
+    color: #ffffff;
+    &__title {
+        align-self: center;
+        justify-self: center;
+        padding: 1em;
+        font-size: $size-title;
+        font-weight: lighter;
+        grid-column: span 3;
+        grid-row: 1/2;
+    }
+    .cerveza {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding: 2em;
+        border: 1px solid $verde;
+        box-shadow: $shadow-cajas;
+        display: grid;
+
+        &__img {
+            justify-self: center;
+            align-self: center;
+        }
+
+        &__subtitle {
+            font-size: $size-subtitle;
+            padding: 1em;
+            justify-self: center;
+            align-self: center;
+        }
+
+        &__p {
+            font-weight: lighter;
+            padding: .5em;
+            text-align: center;
+        }
+    }
+    .licores {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding: 2em;
+        border: 1px solid $verde;
+        box-shadow: $shadow-cajas;
+        display: grid;
+
+        &__img {
+            justify-self: center;
+            align-self: center;
+        }
+
+        &__subtitle {
+            font-size: $size-subtitle;
+            padding: 1em;
+            justify-self: center;
+            align-self: center;
+        }
+
+        &__p {
+            font-weight: lighter;
+            padding: .5em;
+            text-align: center;
+        }
+        
+    }
+    .comidas {
+        grid-column: 3/4;
+        grid-row: 2/3;
+        padding: 2em;
+        border: 1px solid $verde;
+        box-shadow: $shadow-cajas;
+        display: grid;
+        &__img {
+            justify-self: center;
+            align-self: center;
+        }
+        &__subtitle{
+            font-size: $size-subtitle;
+            padding: 1em;
+            justify-self: center;
+            align-self: center;
+        }
+        &__p {
+            font-weight: lighter;
+            padding: .5em;
+            text-align: center;
+        }
+    }
+    
+}

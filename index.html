@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <a href="https://icons8.com/icon/1LbdXYlecpRD/cóctel"></a>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navegador">
+            <ul class="navegador__ul">
+                <li class="navegador__li"><a href="#" class="link">Inicio</a></li>
+                <li class="navegador__li"><a href="#" class="link">Que ofrecemos</a></li>
+                <li class="navegador__li"><a href="#" class="link">Nuestra noche</a></li>
+                <li class="navegador__li"><a href="#" class="link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2 class="hero__title">BAr MiBar</h2>
+            <span class="hero__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi nisi deserunt, iste harum hic est deleniti temporibus dolor odio iure.</span>
+            <a href="#" class="hero__btn">Contactanos</a>
+        </section>
+        <section class="servicios">
+            <h3 class="servicios__title">Que ofrecemos</h3>
+            <article class="cerveza">
+                <img class="cerveza__img" src="https://img.icons8.com/nolan/64/beer.png"/>
+            <span class="cerveza__subtitle">Variedad de cervezas</span>
+            <p class="cerveza__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus magni libero aliquid nesciunt cum asperiores atque, possimus dignissimos. Aliquid ipsum blanditiis architecto iure molestiae consequuntur expedita laborum veniam soluta perspiciatis, repellat iste quo sunt ut similique ipsa placeat quaerat? Ex.</p>
+            </article>
+            <article class="licores">
+                <img class="licores__img" src="https://img.icons8.com/nolan/64/cocktail.png"/>
+            <span class="licores__subtitle">Variedad de tragos</span>
+            <p class="licores__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus magni libero aliquid nesciunt cum asperiores atque, possimus dignissimos. Aliquid ipsum blanditiis architecto iure molestiae consequuntur expedita laborum veniam soluta perspiciatis, repellat iste quo sunt ut similique ipsa placeat quaerat? Ex.</p>
+            </article>
+            <article class="comidas">
+                <img class="comidas__img" src="https://img.icons8.com/nolan/64/hamburger.png"/>
+                <span class="comidas__subtitle">Variedad de comidas</span>
+            <p class="comidas__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus magni libero aliquid nesciunt cum asperiores atque, possimus dignissimos. Aliquid ipsum blanditiis architecto iure molestiae consequuntur expedita laborum veniam soluta perspiciatis, repellat iste quo sunt ut similique ipsa placeat quaerat? Ex.</p>
+            </article>
+        </section>
+        <section class="nocheCarpi">
+            <div class="noche">
+                <h3 class="noche__title">La noche en MiBar</h3>
+            </div>
+            <div class="gallery">
+                <img src="./imagenes/pexels-andrea-piacquadio-787961.jpg" alt="" class="gallery__img">
+                <img src="./imagenes/pexels-askar-abayev-5638814.jpg" alt="" class="gallery__img">
+                <img src="./imagenes/pexels-craig-adderley-1557686.jpg" alt="" class="gallery__img">
+                <img src="./imagenes/pexels-darlene-alderson-7016427.jpg" alt="" class="gallery__img">
+                <img src="./imagenes/pexels-elevate-1267360.jpg" alt="" class="gallery__img">
+                <img src="./imagenes/pexels-elina-sazonova-1850595.jpg" alt="" class="gallery__img">
+                <img src="./imagenes/pexels-helena-lopes-696218.jpg" alt="" class="gallery__img">
+                <img src="./imagenes/pexels-isabella-mendes-1304475.jpg" alt="" class="gallery__img">
+                <img src="./imagenes/pexels-pavel-danilyuk-5858057.jpg" alt="" class="gallery__img">
+                <img src="./imagenes/pexels-pavel-danilyuk-7594138.jpg" alt="" class="gallery__img">
+                <img src="./imagenes/pexels-rodnae-productions-6173952.jpg" alt="" class="gallery__img">
+                <img src="./imagenes/pexels-rodnae-productions-6173958.jpg" alt="" class="gallery__img">
+            </div>
+        </section>
+        <section class="contacto">
+            <aside class="datos">
+                <h3 class="datos__title">Dónde estamos</h3>
+                <span class="datos__text">Dirección: Calle falsa 123 -Maipú</span>
+                <span class="datos__text">Email: barcarpincho@hola.com</span>
+                <span class="datos__text">Teléfono: 2615555</span>
+                <span class="datos__text">Horario de atención: lunes a sábado de 20:00 a 01:00 hs.</span>
+                <span class="datos__pagos">Formas de pago</span>
+                <i class="fas fa-cocktail"></i>
+                <i class="fas fa-cocktail"></i>
+                <i class="fas fa-cocktail"></i>
+            </aside>
+            <article class="contacto__form">
+                <form action="" class="form">
+                    <div class="form__name">
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="name" id="name"required>
+                    </div>
+                    <div class="form__empresa">
+                        <label for="empresa">Nombre:</label>
+                        <input type="text" name="empresa" id="empresa">
+                    </div>
+                    <div class="form__tel">
+                        <label for="tel">Teléfono:</label>
+                        <input type="tel" name="tel" id="tel"required pattern="[0-9]+" title="cod-area sin el '0' + número sin el '15'">
+                    </div>
+                    <div class="form__email">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email"title="name@example.com"required>
+                    </div>
+                    <div class="form__mensaje">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" required></textarea>
+                    </div>
+                    <div class="form__btn">
+                        <input type="submit" name="btn" id="btn" value="Enviar">
+                    </div>
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__nav">
+            <ul class="nav">
+                <li class="nav__li"><a href="#" class="link">Inicio</a></li>
+                <li class="nav__li"><a href="#" class="link">Que ofrecemos</a></li>
+                <li class="nav__li"><a href="#" class="link">Nuestra noche</a></li>
+                <li class="nav__li"><a href="#" class="link">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="footer__logo">
+            <h4 class="footer__title">BAr CarPinCho</h4>
+            <img src="" alt="" class="footer__img">
+        </div>
+        <div class="footer__copy">
+            <h4 class="footer__text">&copy;2021 - Sitio web creado por Micaela Analía Jofré</h4>
+        </div>
+    </footer>
+    <script src="simpleParallax.js"></script>
+    <script>
+        var image = document.getElementsByClassName('thumbnail');
+new simpleParallax(image, {
+	orientation: 'right'
+});
+    </script>
+</body>
+</html>

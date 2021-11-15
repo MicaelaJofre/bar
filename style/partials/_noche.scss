@@ -1,0 +1,39 @@
+.noche {
+    background-color: $negro;
+    color: #fff;
+    padding: 2em;
+    &__title {
+        font-size: $size-title;
+        font-weight: lighter;
+        text-align: center;
+        padding: 1em;
+    }
+    
+}
+.gallery {
+    background-color: $negro;
+    color: #fff;
+    display: grid;
+    padding: 2em;
+    grid-template-columns: repeat(5,1fr);
+    grid-auto-rows: 17em;
+    grid-auto-flow: dense;
+    gap: 1em;
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        &:nth-child(8){
+            grid-area: 2 / 1 / span 2 / span 2;
+        }
+        &:nth-child(2) {
+            grid-area: 1 / 4 / span 2 / span 2;
+        }
+        &:nth-child(10) {
+            grid-area: 2 / 3 / span 2 / span 1 ;
+        }
+        &:nth-child(1) {
+            grid-area: 4 / 4 / span 1 / span 2;
+        }
+    }
+}
