@@ -1,0 +1,22 @@
+@mixin form {
+    background: #0a2424d3;
+    border: none;
+    border-bottom: 2px solid $verde;
+    resize: none;
+    border-radius: .2em;
+    box-shadow: $shadow-cajas;
+    outline: none;
+    color: #fff;
+    width: 100%;
+}
+@mixin btn {
+    padding: .5em;
+    justify-self: center;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: 1px $verde solid;
+    box-shadow: $shadow-cajas;
+    border-radius: 15px;
+}
